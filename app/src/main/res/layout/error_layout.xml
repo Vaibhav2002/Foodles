@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/error_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/error" />
+
+        <TextView
+            android:id="@+id/something_went_wrong"
+            style="@style/TextAppearance.MdcTypographyStyles.Overline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/error_img"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="@string/opps_something_went_wrong" />
+
+        <TextView
+            android:id="@+id/connect_to_internet"
+            style="@style/TextAppearance.MdcTypographyStyles.Overline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/error_img"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="@string/please_connect_to_internet" />
+
+        <TextView
+            android:id="@+id/no_result_found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/error_img"
+            android:layout_centerHorizontal="true"
+            android:text="@string/no_results_found" />
+
+
+    </RelativeLayout>
+
+
+</merge>

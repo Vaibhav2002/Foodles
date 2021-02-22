@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nearbyFragment">
+
+    <fragment
+        android:id="@+id/nearbyFragment"
+        android:name="com.example.zomato.NearbyPage.NearbyFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_nearby">
+        <action
+            android:id="@+id/action_nearbyFragment_to_restaurantListingFragment"
+            app:destination="@id/restaurantListingFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_nearbyFragment_to_restaurantDetailFragment"
+            app:destination="@id/restaurantDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/collectionsFragment"
+        android:name="com.example.zomato.collectionsPage.CollectionsFragment"
+        android:label="Collections"
+        tools:layout="@layout/fragment_collections">
+        <action
+            android:id="@+id/action_collectionsFragment_to_restaurantListingFragment"
+            app:destination="@id/restaurantListingFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.zomato.SearchPage.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_restaurantDetailFragment"
+            app:destination="@id/restaurantDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restaurantListingFragment"
+        android:name="com.example.zomato.restaurantListPage.RestaurantListingFragment"
+        android:label="Restaurants"
+        tools:layout="@layout/fragment_restaurant_listing">
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <argument
+            android:name="searchBy"
+            app:argType="com.example.zomato.util.SearchParameter" />
+        <action
+            android:id="@+id/action_restaurantListingFragment_to_restaurantDetailFragment"
+            app:destination="@id/restaurantDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restaurantDetailFragment"
+        android:name="com.example.zomato.restaurantDetailPage.RestaurantDetailFragment"
+        android:label="fragment_restaurant_detail"
+        tools:layout="@layout/fragment_restaurant_detail">
+        <argument
+            android:name="restaurant"
+            app:argType="com.example.zomato.data.RestaurantXSearch" />
+    </fragment>
+</navigation>

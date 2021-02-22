@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Foodles</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="collections">Collections</string>
+    <string name="categories">Categories</string>
+    <string name="nearby">Nearby</string>
+    <string name="top_cuisines">Top cuisines</string>
+    <string name="nearby_restaurants">Nearby Restaurants</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="cuisines">Cuisines</string>
+    <string name="timings">Timings</string>
+    <string name="rating">Rating</string>
+    <string name="average_cost_for_two">Average Cost For Two</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="results_could_not_be_loaded">Results could not be loaded</string>
+    <string name="opps_something_went_wrong">Opps! Something went wrong</string>
+    <string name="please_connect_to_internet">Please connect to internet.Swipe to refresh when connected</string>
+    <string name="no_results_found">No results Found</string>
+    <string name="search_here">Search here</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="retry">Retry</string>
+    <string name="opps_something_went_wrong_swipe_to_retry">Oops! Something went wrong. Swipe to retry</string>
+    <string name="order">Order</string>
+    <string name="there_was_an_error_getting_your_location_nplease_enable_location_if_its_disabled_or_give_location_permission_if_its_denied">There was an error getting your location.Please enable location if its disabled or give location permission if its denied and restart app</string>
+    <string name="search_restaurants">Search Restaurants</string>
+</resources>
