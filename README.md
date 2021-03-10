@@ -15,6 +15,10 @@ Clone the repository on your machine. Open the project on your IDE and get your 
 - Clean and Simple Material UI.
 - It supports dark theme too 🌗.
 
+***You can Install and test latest AssigmentHub app from below 👇***
+
+[![Foodles](https://img.shields.io/badge/Foodles✅-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/Vaibhav2002/Foodles/blob/main/app/release/app-release.apk)
+
 ## Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
 - [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - For asynchronous and more..
