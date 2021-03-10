@@ -4,6 +4,10 @@
 
 **Foodles** is a restaurant searching and food ordering Android application 📱 built to demonstrate use of *Modern Android development* tools.
 
+***You can Install and test latest Foodles app from below 👇***
+
+[![Foodles](https://img.shields.io/badge/Foodles✅-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/Vaibhav2002/Foodles/blob/main/app/release/app-release.apk)
+
 ## Setup
 Clone the repository on your machine. Open the project on your IDE and get your zomato api key and use in the app and everything will be setup
 
@@ -15,9 +19,6 @@ Clone the repository on your machine. Open the project on your IDE and get your 
 - Clean and Simple Material UI.
 - It supports dark theme too 🌗.
 
-***You can Install and test latest Foodles app from below 👇***
-
-[![Foodles](https://img.shields.io/badge/Foodles✅-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/Vaibhav2002/Foodles/blob/main/app/release/app-release.apk)
 
 ## Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
